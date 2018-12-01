@@ -4,26 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="css/custom.css">
     <title>Bootstrap</title>
 
 
 </head>
 <body>
-<nav class="navbar fixed-top navbar-custom bg-white">
+<nav class="navbar fixed-top bg-white navbar-expand-sm navbar-light py-5">
 <div class="col-1">
-    <a href=""><img src="images/logo.png" alt="Logo" /></a>
+    <a href="/"><img src="images/logo.png" alt="Logo" /></a>
 </div>
-    <div class="col-3">
-        <ul class="list-unstyled d-flex align-items-center mb-0 justify-content-end">
-            <li>
+    <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#menu-block" aria-controls="menu-block" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div class="col-12 col-sm-11 collapse navbar-collapse justify-content-end" id="menu-block">
+        <ul class="list-unstyled d-flex flex-column flex-sm-row align-items-center mb-0 justify-content-end py-1 py-sm-0">
+            <li class="mt-2 mt-sm-0">
                 <a href="#" class="link-custom link-color-current">Home</a>
             </li>
-            <li class="ml-5">
+            <li class="mt-2 mt-sm-0 ml-sm-5">
                 <a href="about.html" class="link-custom link-color-normal">About</a>
             </li>
-            <li class="ml-5">
+            <li class="mt-2 mt-sm-0 ml-sm-5">
                 <a href="contacts.html" class="link-custom link-color-normal">Contact</a>
             </li>
         </ul>
@@ -32,7 +36,7 @@
 </nav>
 
 <header class="container-fluid">
-<div class="row mt-section-custom justify-content-center">
+<div class="row mt-section-custom bg-section-custom justify-content-center">
     <div class="col text-center custom-padding-10">
         <h1 class="mb-4 ">UI/UX & Graphic Designer</h1>
         <p>
@@ -139,7 +143,7 @@
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" ></script>
-<script type="javascript" src="bootstrap/js/bootstrap.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
 <script src="js/index.js"></script>
 </body>
 </html>

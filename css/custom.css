@@ -9,8 +9,8 @@ p {
   font-family: 'Nunito Sans', sans-serif;
   color: var(--grey); }
 
-.navbar-custom {
-  height: 100px; }
+.navbar {
+  transition: box-shadow 0.5s ease; }
 
 a.link-custom {
   font-family: 'Montserrat', sans-serif;
@@ -32,12 +32,20 @@ a.link-color-normal {
   a.link-color-normal:hover {
     border-bottom: 2px solid #191919; }
 
-.mt-section-custom {
-  margin-top: 100px;
+.bg-section-custom {
   background-color: #f6f6f6; }
+
+.mt-section-custom {
+  margin-top: 110px; }
 
 .custom-padding-10 {
   padding: 6rem 0; }
+
+.custom-padding-11 {
+  padding: 7rem 0; }
+
+.custom-padding-12 {
+  padding: 8rem 0; }
 
 .custom-portfolio-element {
   width: auto;
@@ -68,6 +76,70 @@ a.link-color-normal {
     .element-overlay:hover .icon-custom {
       opacity: 1;
       transform: translateY(0); }
+
+.me-custom {
+  background: url("../images/me.jpg") no-repeat center/cover; }
+
+.presentation-custom {
+  background: url("../images/vase.jpg") no-repeat center/cover;
+  min-height: 300px; }
+
+.detail-custom {
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  padding-left: 70px;
+  text-transform: uppercase; }
+
+.briefcase:before {
+  position: absolute;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 3rem;
+  top: 0;
+  left: 5px;
+  content: "\f0b1"; }
+
+.star:before {
+  position: absolute;
+  font-family: "Font Awesome 5 Free";
+  font-size: 3rem;
+  top: 0;
+  left: 5px;
+  content: "\f005"; }
+
+.clock:before {
+  position: absolute;
+  font-family: "Font Awesome 5 Free";
+  font-size: 3rem;
+  top: 0;
+  left: 5px;
+  content: "\f017"; }
+
+.heart:before {
+  position: absolute;
+  font-family: "Font Awesome 5 Free";
+  font-size: 3rem;
+  top: 0;
+  left: 5px;
+  content: "\f004"; }
+
+.project-custom {
+  background: url("../images/breakfast.jpg") no-repeat left center/cover;
+  min-height: 400px; }
+
+a.arrow-custom {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--gray-dark);
+  transition: color 0.2s ease; }
+  a.arrow-custom:hover {
+    color: var(--gray); }
 
 .footer-custom {
   background-color: #141414; }
